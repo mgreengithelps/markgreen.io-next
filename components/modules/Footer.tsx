@@ -1,7 +1,8 @@
+import LargeName from '../elements/LargeName'
+
 const Footer = () => (
-  <footer>
-    <hr />
-    <span>(Footer)</span>
+  <footer className="absolute bottom-0 w-screen">
+    <LargeName />
   </footer>
 )
 

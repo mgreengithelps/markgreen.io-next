@@ -7,11 +7,11 @@ type Props = {
   title?: string
 }
 
-const Layout = ({ children, title = 'markGreen.io | Welcome' }: Props) => (
-  <div>
+const Layout = ({ children, title = 'markGreen.io' }: Props) => (
+  <div className="min-h-screen w-screen bg-gradient">
     <Header title={title}></Header>
     {children}
-    <Footer></Footer>
+    <Footer />
   </div>
 )
 
