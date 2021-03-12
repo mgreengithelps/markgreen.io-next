@@ -1,37 +1,37 @@
-import Head from 'next/head'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import HtmlHead from '../elements/HtmlHead'
 import Logo from '../elements/Logo'
+import Menu from '../elements/Menu'
 
 type Props = {
   title?: string
 }
 
-const Header = ({ title = 'markgreen.io' }: Props) => (
-  <div>
-    <Head>
-      <title>
-        {title}
-      </title>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    </Head>
-    <header>
-      <nav className="w-full flex justify-between items-center pt-4 pb-2 px-4">
-        <div className="branding">
-          <Link href="/" className="name opacity-0 transform-all duration-700 ease-out uppercase font-bold text-2xl text-green hover:text-beige tracking-wider leading-none cursor-pointer">
-            <a className="flex items-center">
-              <div className="w-12 h-12 mb-4 md:mb-0 mr-0 md:mr-4">
-                <Logo />
-              </div>
-              <h1 className="font-bold uppercase hidden">
-                Mark A. Green
-              </h1>
+const Header = ({ title = 'markgreen.io' }: Props) => {
+  const [show, setShow] = useState(false)
+  const toggleShow = () => setShow(show === true ? false : true)
+  return (
+    <div>
+      <HtmlHead title={title} />
+      <header>
+        <nav className="w-screen flex justify-between items-center pt-4 pb-2 px-4 relative z-20">
+          <Link href="/">
+            <a className="font-thin uppercase leading-none text-beige tracking-widest text-xs">
+              Mark Green&emsp;|&emsp;Developer
             </a>
           </Link>
-        </div>
-      </nav>
-    </header>
-  </div>
-)
+          <div
+            className="w-12 h-12 cursor-pointer"
+            onClick={toggleShow}
+          >
+            <Logo />
+          </div>
+        </nav>
+      </header>
+      <Menu show={show} setShow={setShow} />
+    </div>
+  )
+}
 
 export default Header

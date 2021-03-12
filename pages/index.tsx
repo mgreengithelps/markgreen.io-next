@@ -1,12 +1,14 @@
 import Link from 'next/link'
-import Home from '../components/templates/Home'
+import Template from '../components/templates/Default'
 
 type Props = {
   title?: string
 }
 
 const IndexPage = ({ title = 'Welcome | markGreen.io' }: Props) => (
-  <Home title={title} />
+  <Template title={title}>
+    Home
+  </Template>
 )
 
 export default IndexPage

@@ -12,7 +12,11 @@ module.exports = {
       red: '#F01456',
       white: '#FFF'
     },
-    extend: {},
+    extend: {
+      zIndex: {
+        '-1': '-1',
+      }
+    },
     letterSpacing: {
       tightest: '-.075em',
       tighter: '-.05em',
