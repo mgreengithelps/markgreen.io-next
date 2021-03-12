@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Template from '../components/templates/Default'
 
 const WorkPage = () => (
-  <Template title="Work | markgreen.io">
+  <Template title="🖥️ | markgreen.io">
     <h1>WorkPage</h1>
     <p>This is the Work page</p>
     <p>

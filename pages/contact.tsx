@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Template from '../components/templates/Default'
 
 const ContactPage = () => (
-  <Template title="Contact | markgreen.io">
+  <Template title="📧 | markgreen.io">
     <h1>Contact Page</h1>
     <p>This is the Contact page</p>
     <p>
