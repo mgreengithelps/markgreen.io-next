@@ -1,9 +1,10 @@
 import type { AppProps /*, AppContext */ } from 'next/app'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
 import '../styles/globals.scss'
 
-library.add(fab, faLinkedin, faGithub)
+library.add(fab, faLinkedin, faGithub, faEnvelopeOpenText)
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const showConsoleImage = () => {

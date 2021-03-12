@@ -10,6 +10,7 @@ module.exports = {
       green: '#349D82',
       purple: '#6E165C',
       red: '#F01456',
+      transparent: 'rgba(0,0,0,0.0)',
       white: '#FFF'
     },
     container: {
