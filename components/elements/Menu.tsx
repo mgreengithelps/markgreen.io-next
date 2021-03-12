@@ -32,7 +32,7 @@ const Menu = ({setShow, show}: Props) => {
         <nav
             className={containerClassName}
         >
-            <div className="w-full flex justify-end items-center pt-4 pb-2 px-4">
+            <div className="container flex justify-end items-center py-2">
                 <div className="w-12 h-12 flex justify-center items-center">
                     <button
                         className="outline-none border border-beige rounded-full p-4 flex justify-center items-center h-8 w-8 text-beige bg-opacity-50 hover:bg-beige transition-colors duration-500 ease-in hover:text-darkBlue focus:outline-none select-none leading-none font-thin"

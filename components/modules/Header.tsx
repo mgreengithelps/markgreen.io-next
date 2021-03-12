@@ -14,8 +14,8 @@ const Header = ({ title = 'markgreen.io' }: Props) => {
   return (
     <div>
       <HtmlHead title={title} />
-      <header>
-        <nav className="w-screen flex justify-between items-center pt-4 pb-2 px-4 relative z-20">
+      <header className="w-screen flex justify-center">
+        <nav className="container flex justify-between items-center py-2 relative z-20">
           <Link href="/">
             <a className="font-thin uppercase leading-none text-beige tracking-widest text-xs">
               Mark Green&emsp;|&emsp;Developer

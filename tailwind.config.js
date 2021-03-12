@@ -12,6 +12,10 @@ module.exports = {
       red: '#F01456',
       white: '#FFF'
     },
+    container: {
+      center: true,
+      padding: '2rem'
+    },
     extend: {
       zIndex: {
         '-1': '-1',
