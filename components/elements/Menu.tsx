@@ -8,8 +8,8 @@ type Props = {
 }
 
 const Menu = ({setShow, show}: Props) => {
-    const showClass = 'w-screen h-screen fixed inset-0 bg-gradient transition-opacity ease-in duration-500 z-50 opacity-100'
-    const hideClass = 'w-screen h-screen fixed inset-0 bg-gradient transition-opacity ease-in duration-500 -z-1 opacity-0'
+    const showClass = 'w-screen max-w-screen overflow-x-hidden h-screen fixed inset-0 bg-gradient transition-opacity ease-in duration-500 z-50 opacity-100'
+    const hideClass = 'w-screen max-w-screen overflow-x-hidden h-screen fixed inset-0 bg-gradient transition-opacity ease-in duration-500 -z-1 opacity-0'
     const [containerClassName, setContainerClassName] = useState(showClass)
     const navItems = [
         {

@@ -40,7 +40,7 @@ const LargeName = () => {
     }, [])
     return (
         <ul ref={containerRef} className="opacity-10 text-right pb-6 md:pb-12">
-                {devItems.map((item, i) => <li key={i} className="text-7xl md:text-9xl font-bold text-beige leading-none -mb-4 md:-mb-8 tracking-tightest transition-opacity duration-700 ease-in-out opacity-10">{item}</li>)}
+                {devItems.map((item, i) => <li key={i} className="text-7xl md:text-9xl font-bold text-beige leading-none -mb-4 md:-mb-8 tracking-tightest transition-opacity duration-700 ease-in-out opacity-10 select-none">{item}</li>)}
             </ul>
     )
 }
