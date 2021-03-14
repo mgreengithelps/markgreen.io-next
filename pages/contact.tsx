@@ -15,7 +15,7 @@ const ContactPage = () => (
             </h2>
           <div className="max-w-xs">
             <p className="text-beige">
-              Also, you can find me on Linked In, Github, or just shoot me an email directly.
+              Also, you can find me on LinkedIn, Github, or shoot me an email directly.
               </p>
           </div>
           <div className="flex md:justify-end pt-4">

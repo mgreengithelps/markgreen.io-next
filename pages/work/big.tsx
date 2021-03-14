@@ -4,7 +4,7 @@ import WorkCard from '../../components/elements/WorkCard'
 const Big = () => {
     const projects = [
         {
-            challenge: 'Wind River chimes needed an eCommerce website that would display seperate products and pricing for their B2C and B2B customers, allowing them to manage their inventory all in one place.',
+            challenge: 'Wind River needed an eCommerce website that would display separate products and pricing for their B2C and B2B customers, allowing them to manage their inventory all in one place.',
             link: {
                 href: 'https://windriverchimes.com/',
                 text: 'Check out the Wind River website.'
@@ -17,10 +17,10 @@ const Big = () => {
             title: 'Wind River'
         },
         {
-            challenge: 'With COVID-19 Bard HVAC could not showcase their products at any tradshows.',
+            challenge: 'With COVID-19, Bard HVAC could not showcase their products at any tradshows.',
             link: {
                 href: 'https://bard-virtual-trade-show.web.app/',
-                text: 'Bard virtual tradeshow can be found here (This is a preview link as the tradeshow is now over).'
+                text: 'Bard virtual tradeshow can be found here (this is a preview link as the tradeshow is now over).'
             },
             picture: {
                 alt: 'Bard virtual tradeshow website',
@@ -39,7 +39,7 @@ const Big = () => {
                             Brand Innovation Group
                         </h1>
                         <p className="text-beige py-4 max-w-xl">
-                            Since joining the BIG team, I have had the opportunity to work in a few different environments that were new to me. <a>Craft CMS with Twig</a> and <a>Shopify theme development with Liquid</a> are the two that stand out the most.
+                            Since joining the BIG team, I have had the opportunity to work in a few different environments that were new to me, like <a>Craft CMS with Twig</a> and <a>Shopify theme development with Liquid</a>.
                         </p>
                         <a
                           href="https://gotobig.com"
