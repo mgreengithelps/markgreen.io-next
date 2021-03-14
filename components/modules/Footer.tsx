@@ -1,7 +1,7 @@
 import LargeName from '../elements/LargeName'
 
 const Footer = () => (
-  <footer className="fixed md:absolute bottom-0 w-screen">
+  <footer className="fixed bottom-0 w-screen">
     <LargeName />
   </footer>
 )

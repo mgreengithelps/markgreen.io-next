@@ -2,7 +2,7 @@ import Template from '../components/templates/Default'
 import SoupLogo from '../components/elements/SoupLogo'
 
 const CharityPage = () => (
-  <Template title="📧 | markgreen.io">
+  <Template title="💗 | markgreen.io">
     <div className="w-full flex justify-center pt-12 md:pt-32 relative z-20">
       <div className="container grid grid-cols-2">
         <div className="col-span-2">
@@ -19,7 +19,7 @@ const CharityPage = () => (
           </div>
         </div>
         <div className="col-span-2">
-          <hr className="border-0 border-b border-beige" />
+          <hr className="border-0 border-b border-beige max-w-lg" />
           <div className="pt-10">
             <div className="w-40 h-40 flex rounded-full justify-center items-center p-4 bg-beige shadow-lg">
               <SoupLogo />
