@@ -6,7 +6,7 @@ const CharityPage = () => (
     <div className="w-full flex justify-center pt-12 md:pt-32 relative z-20">
       <div className="container grid grid-cols-2">
         <div className="col-span-2">
-          <h1 className="text-8xl text-beige font-bold tracking-tight">
+          <h1 className="text-6xl md:text-8xl text-beige font-bold tracking-tight">
             Charity
           </h1>
           <h2 className="text-beige text-3xl leading-relaxed tracking-wide">

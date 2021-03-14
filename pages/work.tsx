@@ -7,7 +7,7 @@ const WorkPage = () => (
     <div className="w-full flex justify-center pt-12 md:pt-24 relative z-20">
       <div className="container grid grid-cols-2 gap-4">
         <div className="col-span-2">
-          <h1 className="text-8xl text-beige font-bold tracking-tight">
+          <h1 className="text-7xl md:text-8xl text-beige font-bold tracking-tight break-words">
             Work Experience
           </h1>
         </div>
@@ -22,7 +22,7 @@ const WorkPage = () => (
             </p>
             <p className="text-beige pb-4">
               Along with Craft, I have created projects at BIG in eCommerce via Shopify's Liquid theming code, quick turn-around projects using Vue/Nuxtjs, and a variety of other development work including Wordpress, emails, and Magento eCommerce.
-          </p>
+            </p>
           </MainWorkText>
         </div>
         <div className="col-span-2 md:col-span-1 md:pl-10 pt-6 md:pt-0">

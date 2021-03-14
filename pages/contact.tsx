@@ -7,7 +7,7 @@ const ContactPage = () => (
     <div className="w-full flex justify-center pt-12 md:pt-48 relative z-20">
       <div className="container grid grid-cols-2">
         <div className="col-span-2 md:col-span-1 border-0 md:border-r border-beige flex flex-col md:items-end md:pr-10 md:text-right">
-          <h1 className="text-8xl text-beige font-bold tracking-tight">
+          <h1 className="text-6xl md:text-8xl text-beige font-bold tracking-tight">
             Contact
             </h1>
           <h2 className="text-beige text-3xl leading-relaxed tracking-wide">

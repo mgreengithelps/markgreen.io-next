@@ -18,7 +18,7 @@ const Layout = ({ children, title = 'markGreen.io' }: Props) => {
     }
   }, 50)
   return (
-    <div className="min-h-screen w-screen bg-gradient">
+    <div className="min-h-screen w-screen bg-gradient pb-48 md:pb-72">
       <Header title={title}></Header>
       {children}
       <Footer />
