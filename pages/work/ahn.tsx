@@ -11,7 +11,7 @@ const Ahn = () => {
                 url: '/ahn.jpg'
             },
             link: {
-                href: '/',
+                href: 'https://github.com/mgreengithelps/workorder-demo',
                 text: 'Checkout a stripped down version in this repository on Github.'
             },
             solution: `This was the largest and most ambitious project I have worked on to date. Authentication was integrated with Office 365, preventive maintenance tasks could be created from assets that were created in the system. This could automatically create work order tickets based on a schedule. Different views were set per user access. Built in Vue/Nuxtjs with a Nodejs backend running on Google's Firebase. Real time updates provided by Firestore. You could run reports on tickets, assets, users for several different use cases, including during state inspections. Managers were shown graphs representing the tickets opened, closed, assigned per a cetain timeframe. It was a load of fun digging into the dirt with this project and it really gave me a ton of experience and knowledge. I would love to be able to tackle something like this again.`,
